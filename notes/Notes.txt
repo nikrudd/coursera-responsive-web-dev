@@ -1,0 +1,111 @@
+url // uniform resource locator
+browser ignores whitespace
+character entity
+&nbsp; non breaking space
+css takes care of presentation
+<link> goes in the head
+text-decoration: none;
+media queries
+@media (max-width : 480px) {}
+or
+@media (min-width : 1200px) {}
+
+
+??? display: inline-block;
+
+BS grid
+    .container
+        .row
+            .col-xs/sm/md/lg-1-12
+
+
+
+
+
+JAVASCRIPT
+
+  event is something that js will respond to
+    click event
+    browser events like load
+
+
+    onclick="alert("Hello!")" // is an html tag attribute
+
+
+    alert("some message"); // it is a JS built in function
+    creates a little alert dialog box in the browser
+    argument // goes inside the () in functions
+
+
+  console.log("some message for the console");
+  good tool for printing out debugging information and learning js
+  console is an object and log is a function
+
+
+window contains document
+and all of these are objects
+
+
+almost everything in js is an object
+
+
+to manipulate html
+
+  document.getElementById("main-heading").innerHTML("New Text");
+
+
+  jQuery is a js library
+  jQuery helps manipulating the web pages easier
+
+
+  $("#main-heading").on("click", function(){
+    this.html("new text");
+});
+
+
+<h1 id="title" onclick="$("#title").html("New Heading");">some random text</h1>
+
+$ is the shorthand for jQuery and it is a function
+
+
+script tag goes in the bottom of the page
+we use it to link a js file to a html page
+
+
+<script type="text/javascript" src="path"></script>
+
+
+<script type="text/javascript">
+//code goes here // we can write jQuery here
+</script>
+
+we create a separate JS file and link it to our html file using script tag before the closing body tag
+
+
+function fun-name (//optional arguments) {
+  // code goes here
+}
+
+
+
+< > angle brackets
+{ } curly brackets
+( ) brackets
+
+
+anonymous function
+
+$("selector").click(function () {
+  // code goes here. body of the function
+});
+
+if statements
+if () {
+ //code goes here
+} else if {
+ // code goes here
+} else {
+
+}
+
+$("selector").off("click"); //this code turns click off
